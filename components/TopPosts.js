@@ -46,7 +46,7 @@ const TopPosts = (props) => {
     );
   }
   return (
-    <View styles={styles.wrapper}>
+    <View style={styles.wrapper}>
       {props.posts.map((post, i) => (
         <PostButton
           index={i}

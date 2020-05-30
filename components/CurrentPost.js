@@ -8,7 +8,7 @@ const CurrentPost = (props) => {
   if (!props.posts) {
     return <View style={styles.wrapper} />;
   }
-  if (props.curent < 0) {
+  if (props.current < 0) {
     return (
       <View style={styles.wrapper}>
         <View style={{ flex: 1, justifyContent: "center" }}>
