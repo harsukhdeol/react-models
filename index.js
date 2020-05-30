@@ -4,7 +4,8 @@ import ModelView from "./components/ModelView";
 import TopPosts from "./components/TopPosts";
 import CurrentPost from "./components/CurrentPost";
 import * as Store from "./components/Store";
-Store.initialize(process.env.KEY);
+Store.initialize("AIzaSyD0dUH9iYz32jVVmQGwaGsmAWuwkeXJldA");
+console.log(process.env);
 
 /* export default class react_model_viewer extends React.Component {
   render() {
